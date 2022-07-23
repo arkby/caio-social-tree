@@ -42,7 +42,7 @@ main {
     display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    max-width: 340px;
+    width: 340px;
 }
 
 .container {
@@ -164,7 +164,6 @@ footer {
 @media (max-width: 575.98px) {
     .container {
         border: none;
-        width: 100vw;
     }
 
     .link-box {
