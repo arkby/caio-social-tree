@@ -42,8 +42,7 @@ main {
     display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
-    min-width: 280px;
-    padding: 10px;
+    max-width: 340px;
 }
 
 .container {
@@ -62,7 +61,7 @@ main {
     padding: 14px;
     text-align: center;
     margin: 0 auto;
-    width: 320px;
+    width: 100%;
 }
 
 .profile-image {
@@ -165,12 +164,7 @@ footer {
 @media (max-width: 575.98px) {
     .container {
         border: none;
-        width: 280px;
-    }
-
-    .profile-image {
-        height: 180px;
-        width: 180px;
+        width: 100vw;
     }
 
     .link-box {
