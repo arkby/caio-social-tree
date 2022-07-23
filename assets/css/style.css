@@ -1,0 +1,180 @@
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+html {
+    color: #274259;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #274259;
+}
+
+body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #cce1e9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    min-width: 280px;
+    padding: 10px;
+}
+
+.container {
+    border: 1px solid #274259;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 14px;
+    text-align: center;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.profile-image {
+    border: 3px solid #274259;
+    padding: 5px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.social-media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 40px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    line-height: 40px;
+    margin: 15px 0;
+}
+
+.social-box {
+    height: 40px;
+}
+
+.social-box img {
+    -webkit-filter: invert(23%) sepia(42%) saturate(530%) hue-rotate(165deg) brightness(93%) contrast(95%);
+            filter: invert(23%) sepia(42%) saturate(530%) hue-rotate(165deg) brightness(93%) contrast(95%);
+    height: 35px;
+}
+
+.social-box img:hover {
+    -webkit-filter: invert(30%) sepia(49%) saturate(1692%) hue-rotate(157deg) brightness(98%) contrast(94%);
+            filter: invert(30%) sepia(49%) saturate(1692%) hue-rotate(157deg) brightness(98%) contrast(94%);
+}
+
+.link-box {
+    background: #274259;
+    border: 2px solid #274259;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0 auto 10px auto;
+    text-transform: uppercase;
+}
+
+.link-box:hover {
+    background: #FFFFFF;
+    border: 2px solid #274259;
+    color: #274259;
+    line-height: 40px;
+}
+
+.link-box a {
+    color: unset;
+}
+
+footer {
+    min-width: 280px;
+    text-align: center;
+}
+
+.thenextbunny p {
+    font-size: 14px;
+}
+
+.thenextbunny a {
+    font-weight: 500;
+}
+
+.thenextbunny a:hover {
+    color: #274259;
+}
+
+.thenextbunny .social {
+    margin: 10px 0;
+}
+
+.thenextbunny img {
+    border-radius: 3px;
+    height: 25px;
+    padding: 0 2px;
+}
+
+.thenextbunny img {
+    -webkit-filter: invert(23%) sepia(42%) saturate(530%) hue-rotate(165deg) brightness(93%) contrast(95%);
+            filter: invert(23%) sepia(42%) saturate(530%) hue-rotate(165deg) brightness(93%) contrast(95%);
+}
+
+.thenextbunny img:hover {
+    -webkit-filter: invert(30%) sepia(49%) saturate(1692%) hue-rotate(157deg) brightness(98%) contrast(94%);
+            filter: invert(30%) sepia(49%) saturate(1692%) hue-rotate(157deg) brightness(98%) contrast(94%);
+}
+
+/* Media queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        border: none;
+        width: 280px;
+    }
+
+    .profile-image {
+        height: 180px;
+        width: 180px;
+    }
+
+    .link-box {
+        border: 2px solid #274259;
+        font-size: 13px;
+    }
+}
